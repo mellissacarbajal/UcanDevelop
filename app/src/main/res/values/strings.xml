@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">UcanDevelop</string>
+    <string name="hint_email">Email</string>
+    <string name="title_login">Bienvenido GG</string>
 </resources>
