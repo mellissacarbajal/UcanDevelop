@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348697276791",
+    "firebase_url": "https://ucandevelop-2019.firebaseio.com",
+    "project_id": "ucandevelop-2019",
+    "storage_bucket": "ucandevelop-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348697276791:android:77dec7009fcc44c58f3172",
+        "android_client_info": {
+          "package_name": "com.example.ucandevelop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348697276791-vlale92fgef7uijfsqjsk1qavjhvu96n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucandevelop",
+            "certificate_hash": "10b9c9f6766a107db5b60b815c33d274d3b08765"
+          }
+        },
+        {
+          "client_id": "348697276791-5u0i2flc71patdnesrfk6rti8d0dhvii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz4BrkHsEOOlBjTe2u0QEPGn6BnqTYwwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348697276791-5u0i2flc71patdnesrfk6rti8d0dhvii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
