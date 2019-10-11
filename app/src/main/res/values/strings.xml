@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">UcanDevelop</string>
     <string name="hint_email">Email</string>
-    <string name="title_login">Bienvenido GG</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="hint_confpass">Confirmar contraseña</string>
+    <string name="title_login">Bienvenido Ucan Develop</string>
+    <string name="text_button">Ingresar</string>
+    <string name="text_register">Aun no tienes una cuenta? Reqistrate Aqui</string>
+    <string name="title_register">Registrate y se parte de la Comunidad</string>
+    <string name="text_button_register">Registrarse</string>
+    <string name="text_button_login">Ya tienes una cuenta? Ingresa Aqui</string>
+    <string name="text_welcome">Ya estas dentro del juego</string>
+    <string name="btn_logout">Cerrar</string>
 </resources>
