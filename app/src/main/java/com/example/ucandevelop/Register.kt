@@ -71,7 +71,7 @@ class Register : AppCompatActivity() {
                                         database.child("Usuarios").child(id).setValue(map).addOnCompleteListener(this@Register, object: OnCompleteListener<Void>{
                                             override fun onComplete(task2: Task<Void>) {
                                                 if (task2.isSuccessful){
-                                                    startActivity(Intent(this@Register,ListaEjercicios::class.java))
+                                                    startActivity(Intent(this@Register,Home::class.java))
                                                     finish()
                                                 }
                                                 else{
@@ -79,7 +79,6 @@ class Register : AppCompatActivity() {
                                                 }
                                             }
                                         })
-                                        startActivity(Intent(this@Register,ListaEjercicios::class.java))
                                     }
                                 }
                             })

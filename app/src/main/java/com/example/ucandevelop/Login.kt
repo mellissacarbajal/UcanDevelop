@@ -40,7 +40,7 @@ class Login : AppCompatActivity() {
                 val firebaseUser: FirebaseUser? = auth.currentUser
                 if (firebaseUser != null){
                     Toast.makeText(this@Login,"Ya estas conectado", Toast.LENGTH_SHORT).show()
-                    val i = Intent(this@Login,ListaEjercicios::class.java)
+                    val i = Intent(this@Login,Home::class.java)
                     startActivity(i)
                 }
                 else{
@@ -64,7 +64,7 @@ class Login : AppCompatActivity() {
                                 Toast.makeText(this@Login,"Error al ingresar, Intente otra vez",Toast.LENGTH_SHORT).show()
                             }
                             else{
-                                val i =  Intent(this@Login,ListaEjercicios::class.java)
+                                val i =  Intent(this@Login,Home::class.java)
                                 startActivity(i)
                             }
                         }
