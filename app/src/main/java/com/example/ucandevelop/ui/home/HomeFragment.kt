@@ -95,7 +95,10 @@ class HomeFragment : Fragment() {
     }
 
     private fun initData() {
-        db = FirebaseDatabase.getInstance().getReference()
+
+        //INTENTANDO LLAMAR DATOS DE FIREBASE
+
+        /*db = FirebaseDatabase.getInstance().getReference()
         var facil = db.child("Ejercicios")
         var query = facil.orderByChild("nivel").equalTo("facil").limitToFirst(10)
         mRoot = ArrayList()
@@ -120,7 +123,7 @@ class HomeFragment : Fragment() {
                 }
             }
 
-        })
+        })*/
 
         (mRoot as ArrayList<TreeNode<*>>).add(
             TreeNode(Genre("probando", R.drawable.ic_saxaphone))
